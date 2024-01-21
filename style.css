@@ -151,7 +151,7 @@ body, .container, header {
         }
 
         main p {
-            color: white;
+            color: rgb(232, 198, 198);
             display: block;
             margin: auto;
         }
