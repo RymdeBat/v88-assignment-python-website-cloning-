@@ -1,0 +1,258 @@
+/* * {
+    border: 1px dotted red;
+}
+
+* {
+    outline: 1px dotted red;
+} */
+
+body {
+    margin: 20px auto;
+    font-family: -apple-system, "Segoe UI","Helvetica Neue",Arial,
+        "Noto Sans",
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+
+a {
+    text-decoration: none;
+}
+
+body, .container, header {
+    width: 1335px;
+}
+
+    .container {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+        .container, footer {
+            background-color: rgb(37, 79, 114);
+            width: 1335px;
+        }
+
+    header {
+        display: inline-block;
+    }
+
+        .Go_button, .Socialize {
+            color: white;
+        }
+
+        header img {
+            width: 200px;
+            margin: 20px;
+            position: relative;
+            top: 110px;
+            left: 20px;
+            display: inline-block;
+        }
+
+        header form {
+            display: inline-block;
+            position: relative;
+            left: 600px;
+            top: 58px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        header input, header button {
+            height: 35px;
+            margin: 0 5px 0 0;
+        }
+
+        header input {
+            width: 200px;
+            margin: auto;
+        }
+
+        header form, .Socialize {
+            padding: 10px;
+            background-color: rgb(30, 41, 51);
+        }
+
+        header button {
+            background-color: rgb(45, 96, 139);
+            margin: 0 0 0 10px;
+            padding: 10px;
+            border-radius: 10%;
+        }
+
+        .Donate {
+            position: relative;
+            left: 598px;
+            top: 60px;
+            padding: 10px;
+            background-color: rgb(255, 213, 74);
+            border-radius: 10%;
+        }
+
+        header form, .Socialize {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        .Socialize {
+            position: relative;
+            left: 596px;
+            top: 60px;
+            padding: 20px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+    nav {
+        width: auto;
+        margin: 0 20px 20px 20px;
+        border-bottom: 1px solid;
+        border-right: 1px solid;
+        border-left: 1px solid;
+        padding: 0;
+        position: relative;
+        top: 70px;
+        background-color: rgb(49, 106, 153);
+        border-radius: 5px;
+    }
+
+        nav a {
+            display: inline-block;
+            width: 130px;
+            margin: 0 0 0 0;
+            text-align: center;
+            padding: 10px 0 10px 0;
+            position: relative;
+            left: 155px;
+            border-right: 1px outset silver;
+        }
+
+        nav .about {
+            background-color: rgb(43, 91, 132);
+        }
+
+    main {
+        display: inline-block;
+        margin: 50px 20px 0 80px;
+        padding: 0;
+        position: relative;
+        top: 70px;
+        left: 65px;
+    }
+
+        main h2 {
+            color: rgb(255, 211, 67);
+            margin: auto;
+            display: block;
+        }
+
+        main p {
+            color: white;
+            display: block;
+            margin: auto;
+        }
+
+        main, main img {
+            display: inline-block;
+            width: 500px;
+            vertical-align: top;
+            margin: 10px 40px 0 100px;
+        }
+
+        .php_box {
+            position: relative;
+            top: 50px;
+        }
+
+    section {
+        display: inline-block;
+        background-color: white;
+        padding: 10px 20px 20px 20px;
+        border-top: 3px solid rgb(117, 168, 211);
+        width: auto;
+    }
+
+        .News td {
+            border-top: 1px solid;
+        }
+
+        .News td a {
+            color: rgb(55, 118, 171);
+        }
+
+        .News td, .Python_use td {
+            padding: 10px 20px 10px 0;
+        }
+
+        .Python_use td {
+            border-bottom: 1px solid;
+        }
+
+        .News {
+            margin: 15px 20px 10px 80px;
+        }
+
+        .top_border {
+            border-top: 1px solid;
+        }
+
+        .News td, .Python_use td, .top_border {
+            border-color: silver;
+        }
+        .News .resize {
+            font-size: large;
+        }
+        .More {
+            position: relative;
+            left: 395px;
+        }
+        .Python_use .other_more {
+            position: relative;
+            left: 325px;
+        }
+        .Python_use {
+            margin: 0 70px 30px 0;
+            padding: 10px 30px 20px 0;
+            width: auto;
+        }
+        .Python_use span{
+            font-weight: bold;
+        }
+        .Python_use td a {
+            background-color: rgb(230, 232, 234);
+        }
+    footer {
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+        footer a, nav a, footer p, .highlight{
+            color: white;
+        }
+        .circle{
+            color: green;
+            font-size: 230%;
+            position: relative;
+            top: 5px;
+        }
+        footer a {
+            display: inline-block;
+            width: auto;
+            margin: 0 20px 10px;
+            padding: 10px 0 0 0;
+        }
+        .highlight {
+            display: block;
+            font-size: smaller;
+            margin: 10px 0 60px 0;
+        }
+        .underline {
+            border-bottom: 1px dotted;
+        }
